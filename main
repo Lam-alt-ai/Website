@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grenadier Guards Roleplay</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #c8102e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            background: white;
+            margin: 20px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Grenadier Guards Roleplay</h1>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#roleplay">Roleplay Info</a>
+        <a href="#community">Community</a>
+        <a href="#resources">Resources</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Welcome to the Grenadier Guards Roleplay Community!</h2>
+    <p>Join us in our immersive roleplay adventures and experience the history and valor of the Grenadier Guards.</p>
+    <button onclick="alert('Thank you for joining!')">Join Now</button>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>The Grenadier Guards have a rich history and a proud tradition. Our roleplay community aims to honor this legacy through engaging storytelling and character development.</p>
+</section>
+
+<section id="roleplay">
+    <h2>Roleplay Information</h2>
+    <p>Character creation guidelines and current storylines can be found here. Get ready to embark on your adventure!</p>
+</section>
+
+<section id="community">
+    <h2>Community</h2>
+    <p>Join our forums to discuss and plan events. Check the calendar for upcoming roleplay sessions.</p>
+</section>
+
+<section id="resources">
+    <h2>Resources</h2>
+    <p>Download useful documents and resources to enhance your roleplaying experience.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="alert('Message sent!'); return false;">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" required></textarea><br>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Grenadier Guards Roleplay. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
